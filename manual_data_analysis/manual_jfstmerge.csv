@@ -1,0 +1,120 @@
+﻿id;commit_hash;file;heuristic;refactoring_type;is_floss;project
+1;d936ad78169283fcd8e0b8923eefc4063b59f074;external/storm-kafka/src/jvm/org/apache/storm/kafka/KafkaUtils.java;true positive;none;not_floss;storm
+2;b0f6e00e859d36f6c259345a1da8a205e6475c4f;storm-core/src/jvm/backtype/storm/utils/Utils.java;true positive;none;not_floss;storm
+3;023cebd062e002577e7a4ed38ef795060040f812;storm-core/src/jvm/backtype/storm/utils/TupleUtils.java;unhandled refactoring conflict;rename class;not_floss;storm
+4;e2debccaca82f68602a9cfddddc7c9db6177e49d;storm-core/test/jvm/backtype/storm/localizer/LocalizerTest.java;true positive;none;not_floss;storm
+5;fe882009aa1070b3abb216064f7b54e6a5ac56c1;external/storm-kafka/src/jvm/storm/kafka/PartitionManager.java;true positive;none;not_floss;storm
+6;fe882009aa1070b3abb216064f7b54e6a5ac56c1;external/storm-kafka/src/jvm/storm/kafka/trident/TridentKafkaEmitter.java;unhandled refactoring conflict;change method declaration;not_floss;storm
+7;fe882009aa1070b3abb216064f7b54e6a5ac56c1;external/storm-kafka/src/jvm/storm/kafka/trident/TridentKafkaEmitter.java;unhandled refactoring conflict;change method declaration;not_floss;storm
+8;fe882009aa1070b3abb216064f7b54e6a5ac56c1;external/storm-kafka/src/jvm/storm/kafka/trident/TridentKafkaEmitter.java;unhandled refactoring conflict;change method declaration;floss;storm
+9;b1c8188d8252ef613c04aeae9e9560a800f9ead3;storm-core/src/jvm/org/apache/storm/utils/ConfigUtils.java;true positive;none;not_floss;storm
+10;d46ed8fbe6bbd8116ceb60769f4b0b569bfd2d0d;storm-core/src/jvm/org/apache/storm/metric/StormMetricsRegistry.java;formatting conflict;none;not_floss;storm
+11;b47932d899917a8a2d1a5d9a671a448b147a7432;storm-core/src/jvm/backtype/storm/utils/DisruptorQueue.java;unhandled refactoring conflict;change method declaration;floss;storm
+12;f18d98fc45f89d058ebbd2578e2c9e82cfedc722;storm-core/src/jvm/backtype/storm/messaging/netty/Context.java;true positive;none;not_floss;storm
+13;fc4af07a0809e462b759c4e361810a986333448d; javaparser-core/src/main/java/com/github/javaparser/metamodel/JavaParserMetaModel.java;unhandled refactoring conflict;rename field;not_floss;javaparser
+14;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/VoidVisitorAdapter.java;unhandled refactoring conflict;change method declaration;not_floss;javaparser
+15;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/NoCommentHashCodeVisitor.java;unhandled refactoring conflict;change method declaration;not_floss;javaparser
+16;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/NoCommentEqualsVisitor.java;unhandled refactoring conflict;change method declaration;not_floss;javaparser
+17;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/ModifierVisitor.java;unhandled refactoring conflict;change method declaration;floss;javaparser
+18;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/HashCodeVisitor.java;unhandled refactoring conflict;change method declaration;floss;javaparser
+19;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/EqualsVisitor.java;unhandled refactoring conflict;change method declaration;not_floss;javaparser
+20;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/CloneVisitor.java;unhandled refactoring conflict;change method declaration;floss;javaparser
+21;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/CloneVisitor.java;unhandled refactoring conflict;change method declaration;floss;javaparser
+22;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/modules/ModuleUsesDirective.java;unhandled refactoring conflict;rename class;floss;javaparser
+23;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/modules/ModuleRequiresDirective.java;unhandled refactoring conflict;rename class;floss;javaparser
+24;fc4af07a0809e462b759c4e361810a986333448d;javaparser-core/src/main/java/com/github/javaparser/ast/modules/ModuleProvidesDirective.java;unhandled refactoring conflict;rename class;floss;javaparser
+25;c96f96dbd7af6c8ea8ed38e44a0499e9a6941103; src/test/resources/bdd/samples/JavaConcepts.java;unhandled refactoring conflict;rename class;not_floss;javaparser
+26;02686a5216af96fadd661ae3d61fe5c4eda76bd3;javaparser-symbol-solver-testing/src/test/java/com/github/javaparser/symbolsolver/javaparsermodel/declarations/JavaParserEnumDeclarationTest.java;formatting conflict;none;not_floss;javaparser
+27;5e362a840449a04cede08e30cc211b0495f16260;javaparser-core/src/main/java/com/github/javaparser/ast/visitor/GenericVisitorAdapter.java;true positive;none;not_floss;realm
+28;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;false positive;none;not_floss;realm
+29;463742ab0ada407592d58af772e4e39e0b5b38c7;realm-annotations-processor/src/test/resources/io/realm/SimpleRealmProxy.java;false positive;none;not_floss;realm
+30;26c34ba7f398e73a01baeaee27a64ff40260647c;realm/src/main/java/io/realm/Realm.java;true positive;none;not_floss;realm
+31;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+32;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;change method declaration;not_floss;realm
+33;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+34;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+35;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+36;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+37;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/RealmQuery.java;true positive;none;not_floss;realm
+38;03e7e6b28b7f1bba1b730519bb61996c89e3e7f1;realm/realm-library/src/main/java/io/realm/internal/TableQuery.java;true positive;change method declaration;not_floss;realm
+39;dde9ab8c54a7970ed0c0b4e64c26d743302daa90;realm/realm-library/src/main/java/io/realm/internal/TableQuery.java;true positive;none;not_floss;realm
+40;b1954a04c72706c8d4cf5af945366d3226e88f61;tightdb-java-core/src/main/java/com/tightdb/typed/TableCursorColumn.java;true positive;none;not_floss;realm
+41;565065c615e5142d3354ec3f81724967500cfbae;doc/ref/examples/src/com/tightdb/refdoc/DynQueryIntro.java;true positive;none;not_floss;realm
+42;565065c615e5142d3354ec3f81724967500cfbae;doc/ref/examples/src/com/tightdb/refdoc/DynQueryIntro.java;true positive;none;not_floss;realm
+43;3e1310755be871ec120633637f17afe3a439f4bc;realm/realm-library/src/main/java/io/realm/internal/ObjectServerFacade.java;true positive;none;not_floss;realm
+44;8c0778ed279e93806878e519e5e3d93caa370ced;/realm/realm-annotations-processor/src/test/resources/io/realm/DefaultRealmModuleMediator.java;true positive;none;not_floss;realm
+45;8c0778ed279e93806878e519e5e3d93caa370ced;/realm/realm-annotations-processor/src/test/resources/io/realm/DefaultRealmModuleMediator.java;true positive;none;not_floss;realm
+46;8c0778ed279e93806878e519e5e3d93caa370ced;realm/realm-annotations-processor/src/test/resources/io/realm/some_test_AllTypesRealmProxy.java;true positive;none;not_floss;realm
+47;8c0778ed279e93806878e519e5e3d93caa370ced;realm/realm-annotations-processor/src/test/resources/io/realm/some_test_AllTypesRealmProxy.java;true positive;none;not_floss;realm
+48;8c0778ed279e93806878e519e5e3d93caa370ced;realm/realm-annotations-processor/src/test/resources/io/realm/some_test_AllTypesRealmProxy.java;true positive;none;not_floss;realm
+49;8c0778ed279e93806878e519e5e3d93caa370ced;realm/realm-annotations-processor/src/test/resources/io/realm/some_test_AllTypesRealmProxy.java;true positive;none;not_floss;realm
+50;9401ff789334de769c06e63a56a7ccb45e87e44e;src/main/java/com/tightdb/lib/TightDB.java;true positive;none;not_floss;realm
+51;580843af917c4a3a0f00b1fce4075c412d9ec980;realm/src/androidTest/java/io/realm/RealmTest.java;true positive;none;not_floss;realm
+52;ec14db605e6be11bc9f2cb9bb002225a241e1c9c;realm/src/androidTest/java/io/realm/RealmTest.java;true positive;none;not_floss;realm
+53;ec14db605e6be11bc9f2cb9bb002225a241e1c9c;realm/src/androidTest/java/io/realm/RealmTest.java;true positive;none;not_floss;realm
+54;ec14db605e6be11bc9f2cb9bb002225a241e1c9c;realm/src/androidTest/java/io/realm/RealmResultsTest.java;true positive;none;not_floss;realm
+55;ec14db605e6be11bc9f2cb9bb002225a241e1c9c;realm/src/androidTest/java/io/realm/TestHelper.java;ordering conflict;none;not_floss;realm
+56;ebd7e5879065bf7439588703284b7a5eb64e1eab;realm/realm-annotations-processor/src/main/java/io/realm/processor/RealmProxyClassGenerator.java;true positive;none;not_floss;realm
+57;c50950e1964fe4d2fb8a95073f6def9dd2edfbc9;realm/realm-library/src/androidTest/java/io/realm/RealmAsyncQueryTests.java;true positive;none;not_floss;realm
+58;c50950e1964fe4d2fb8a95073f6def9dd2edfbc9;realm/realm-library/src/androidTest/java/io/realm/RealmAsyncQueryTests.java;true positive;none;not_floss;realm
+59;fa982b07c69aca919e4483d4b15c1bdc1039b993;realm/src/main/java/io/realm/Realm.java;true positive;none;not_floss;realm
+60;fa982b07c69aca919e4483d4b15c1bdc1039b993;realm/src/main/java/io/realm/Realm.java;true positive;none;not_floss;realm
+61;fa982b07c69aca919e4483d4b15c1bdc1039b993;realm-annotations-processor/src/test/resources/io/realm/AllTypesRealmProxy.java;true positive;change method declaration;not_floss;realm
+62;fa982b07c69aca919e4483d4b15c1bdc1039b993;realm-annotations-processor/src/main/java/io/realm/processor/RealmProxyClassGenerator.java;true positive;none;not_floss;realm
+63;936a2921282bf171b06c3c77450e93c78c6beb7d;core/src/main/java/com/google/errorprone/bugpatterns/BugChecker.java;true positive;none;not_floss;error-prone
+64;e55275fc6df6b1b6b6e56a3c905da8dbea05d4df;core/src/main/java/com/google/errorprone/Scanner.java;unhandled refactoring conflict;change method declaration;not_floss;error-prone
+65;f95b432f949ca794b9445058d5f5fa185142c7ff;/core/src/main/java/com/google/errorprone/ErrorProneScanner.java;unhandled refactoring conflict;inline method;floss;error-prone
+66;07559b47674594fdf40f2855f83b492f67f9093c;core/src/test/java/com/google/errorprone/CompilationTestHelper.java;true positive;change method declaration;floss;error-prone
+67;0e97a336019b2590a5a486cd4d0249a60db36eb7;/core/src/main/java/com/google/errorprone/ErrorProneScanner.java;unhandled refactoring conflict;inline method;floss;error-prone
+68;5070bb4801aaeb9f30d56222ccae5cc90d0aadef;core/src/main/java/com/google/errorprone/ErrorProneScanner.java;true positive;none;not_floss;error-prone
+69;6f83c0839dd0343f229406d4222d8c5bea768c47;core/src/main/java/com/google/errorprone/ErrorProneScanner.java;true positive;none;not_floss;error-prone
+70;a55753d55f1c7f517bb977441785ff84cb4b9a04;core/src/test/java/com/google/errorprone/bugpatterns/SelfAssignmentTest.java;true positive;none;not_floss;error-prone
+71;a55753d55f1c7f517bb977441785ff84cb4b9a04;core/src/test/java/com/google/errorprone/bugpatterns/SelfAssignmentTest.java;true positive;none;not_floss;error-prone
+72;a55753d55f1c7f517bb977441785ff84cb4b9a04;core/src/test/java/com/google/errorprone/bugpatterns/ArrayEqualsTest.java;true positive;none;not_floss;error-prone
+73;ce61416fbd8773003d86bd5f56b3e42569d9e068;core/src/test/resources/com/google/errorprone/bugpatterns/ArrayToStringPositiveCases.java;unhandled refactoring conflict;none;not_floss;error-prone
+74;f10f48c87d828881dda9912f050bccf8bb36776c;core/src/test/resources/com/google/errorprone/bugpatterns/ArrayToStringPositiveCases.java;unhandled refactoring conflict;rename class;not_floss;error-prone
+75;f10f48c87d828881dda9912f050bccf8bb36776c;core/src/test/resources/com/google/errorprone/bugpatterns/ArrayToStringNegativeCases.java;unhandled refactoring conflict;rename class;not_floss;error-prone
+76;d51253011690def06db835d5ad605ca134c94d84;core/src/main/java/com/google/errorprone/ErrorProneScanner.java;true positive;none;not_floss;error-prone
+77;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/IsSubtypeOf.java;unhandled refactoring conflict;composite type;floss;error-prone
+78;d017a5411de869929dd03efc6c952aa708a9bd2a;core/src/main/java/com/google/errorprone/matchers/Matchers.java;unhandled refactoring conflict;composite type;floss;error-prone
+79;f25c38b51e0f35ea1637832e1ea6680c343203e2;core/src/main/java/com/google/errorprone/bugpatterns/covariant_equals/CovariantEquals.java;unhandled refactoring conflict;rename class;floss;error-prone
+80;66a86d1652c383ea3921d03f49f444f1d1000765;core/src/main/java/com/google/errorprone/bugpatterns/empty_if_statement/EmptyIfStatement.java;unhandled refactoring conflict;change method declaration;floss;error-prone
+81;66a86d1652c383ea3921d03f49f444f1d1000765;core/src/main/java/com/google/errorprone/bugpatterns/covariant_equals/CovariantEquals.java;unhandled refactoring conflict;change method declaration;floss;error-prone
+82;e55275fc6df6b1b6b6e56a3c905da8dbea05d4df;core/src/main/java/com/google/errorprone/Scanner.java;unhandled refactoring conflict;change method declaration;floss;error-prone
+83;02fc1f509a670de3632417bbf33168989bfcf872;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+84;ab7c961572adab958edf4c5cf1f5371b72117300;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+85;0a6893304bec85084f963dfd40c1a830685b61a9;src/main/java/org/junit/experimental/interceptor/TestWatchman.java;unhandled refactoring conflict;change method declaration;not_floss;junit4
+86;15bef4ec10639406e419ed8732a7f82b9f8b0d13; src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+87;dc44abf520611a8722e75ba1d32df6a28183e4e3;src/main/java/org/junit/Rule.java;ordering conflict;none;not_floss;junit4
+88;dc44abf520611a8722e75ba1d32df6a28183e4e3;src/main/java/org/junit/rules/MethodRule.java;ordering conflict;none;not_floss;junit4
+89;ee037247a9a03d8ac2e584d52a544b9733f2c016;src/main/java/org/junit/Assert.java;true positive;none;not_floss;junit4
+90;ee037247a9a03d8ac2e584d52a544b9733f2c016; src/test/java/org/junit/tests/experimental/rules/ExpectedExceptionTest.java;formatting conflict;none;not_floss;junit4
+91;17f7dfc72624253461022acff1d3aa6b9c4056cf;src/test/java/org/junit/tests/experimental/rules/ExpectedExceptionRuleTest.java;true positive;none;not_floss;junit4
+92;17f7dfc72624253461022acff1d3aa6b9c4056cf;src/test/java/org/junit/tests/AllTests.java;true positive;none;not_floss;junit4
+93;533e366307f7a402f19ff5aced3b0019c47205f6;src/main/java/org/junit/internal/MethodSorter.java;unhandled refactoring conflict;extract method;floss;junit4
+94;39d30b21b3a632f158274c6937c13499cd0758f3;src/test/java/org/junit/tests/experimental/rules/ExpectedExceptionRuleTest.java ;true positive;none;not_floss;junit4
+95;e01ccf14711bfcb6b0c2fb5ec4bf541e8e78b721;src/test/java/org/junit/tests/experimental/rules/ExpectedExceptionRuleTest.java ;true positive;none;not_floss;junit4
+96;4c8d3ff5ea9d1556bf05af6262ee58f65984e22f;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+97;e76c5f0fe7e1e2034765fd80cd7556b6bfc82345;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+98;e55796904be214741701070b723acd895b25e995;src/main/java/org/junit/rules/TemporaryFolder.java;true positive;change method declaration;floss;junit4
+99;e55796904be214741701070b723acd895b25e995;src/main/java/org/junit/runners/Parameterized.java;formatting conflict;none;not_floss;junit4
+100;c396cff8a7216e718c0a203a5829b25538964dd5;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+101;d6ccf5b0fa4e0d62eac42425a593b870af1247bd;src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java;true positive;change method declaration;floss;junit4
+102;56743a446c8fe01319c6588c1709bcf1a090ccde;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+103;b5fb9c92dfb1380b8a8b0b53aea3e7f7627ee03c;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+104;b5fb9c92dfb1380b8a8b0b53aea3e7f7627ee03c;src/main/java/org/junit/runners/BlockJUnit4ClassRunner.java;true positive;none;not_floss;junit4
+105;02fc1f509a670de3632417bbf33168989bfcf872;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+106;9ee2808155657ebfa5f6dd27791d7350da0ecfeb;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+107;9ee2808155657ebfa5f6dd27791d7350da0ecfeb;src/main/java/org/junit/Assert.java;true positive;none;not_floss;junit4
+108;9ee2808155657ebfa5f6dd27791d7350da0ecfeb;src/main/java/org/junit/matchers/JUnitMatchers.java;formatting conflict;none;not_floss;junit4
+109;9ee2808155657ebfa5f6dd27791d7350da0ecfeb;src/main/java/org/junit/matchers/JUnitMatchers.java;true positive;none;not_floss;junit4
+110;9ee2808155657ebfa5f6dd27791d7350da0ecfeb;src/main/java/org/junit/matchers/JUnitMatchers.java;formatting conflict;none;not_floss;junit4
+111;7ca2c7d2e052b99526415113b8d5dcc513e7de07;src/main/java/junit/runner/Version.java;true positive;none;not_floss;junit4
+112;956f86fa4c406a923d5366b5906e3431e9d0717d;src/test/java/org/junit/tests/ParentRunnerTest.java;true positive;none;not_floss;junit4
+113;956f86fa4c406a923d5366b5906e3431e9d0717d;src/main/java/org/junit/runners/ParentRunner.java;true positive;none;not_floss;junit4
+114;956f86fa4c406a923d5366b5906e3431e9d0717d;src/main/java/org/junit/runners/ParentRunner.java;true positive;none;not_floss;junit4
+115;956f86fa4c406a923d5366b5906e3431e9d0717d;src/main/java/org/junit/experimental/ParallelComputer.java;true positive;none;not_floss;junit4
+116;956f86fa4c406a923d5366b5906e3431e9d0717d;src/main/java/org/junit/experimental/ParallelComputer.java;true positive;none;not_floss;junit4
+117;0a6893304bec85084f963dfd40c1a830685b61a9;src/main/java/org/junit/experimental/interceptor/TestWatchman.java;true positive;change method declaration;not_floss;junit4
+118;4f9eee58782d30d873b3739095c8c2e01f59fc7a;src/main/java/org/junit/experimental/ParallelComputer.java;unhandled refactoring conflict;rename class;floss;junit4
+119;4f9eee58782d30d873b3739095c8c2e01f59fc7a;src/main/java/org/junit/experimental/ParallelComputer.java;true positive;none;not_floss;junit4
